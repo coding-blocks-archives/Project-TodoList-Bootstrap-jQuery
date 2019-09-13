@@ -1,6 +1,6 @@
 let ulTasks = $('#ulTasks')
 let btnAdd = $('#btnAdd')
-let btnClear = $('#btnClear')
+let btnReset = $('#btnReset')
 let inpNewTask = $('#inpNewTask')
 
 function addItem() {
@@ -22,4 +22,4 @@ btnAdd.click(addItem)
 
 
 
-btnClear.click(() => inpNewTask.val(''))
+btnReset.click(() => inpNewTask.val(''))
